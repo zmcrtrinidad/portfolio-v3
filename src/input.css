@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+    h1 {
+      @apply text-2xl  tracking-[0.172em] font-bold  ;
+    }
+    h2 {
+      @apply text-xl  tracking-[0.172em] font-bold ;
+    }
+    h3 {
+      @apply text-lg  tracking-[0.172em] font-bold ;
+    }
+    h4 {
+      @apply text-sm  tracking-[0.172em] font-bold ;
+    }
+    h5 {
+      @apply text-xs  tracking-[0.172em] font-bold ;
+    }
+    p{
+      @apply text-[16px];
+    }
+}
+
+@layer utilities{
+    .text-gold{
+        background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+}
