@@ -1,7 +1,7 @@
 
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import Arrow from "@/assets/arrow.svg";
+import Arrow from "@/assets/Arrow.svg";
 import Pocketdevs from "@/assets/Pocketdevs.svg";
 import RightValley from "@/assets/RightValley.svg";
 import Stronghold from "@/assets/Stronghold.svg";

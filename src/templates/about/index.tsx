@@ -1,7 +1,7 @@
 
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import Arrow from "@/assets/arrow.svg";
+import Arrow from "@/assets/Arrow.svg";
 import ArrowReverse from "@/assets/ArrowReverse.svg";
 import LaravelIcon from "@/assets/LaravelIcon.svg";
 import React from "@/assets/React.svg";
