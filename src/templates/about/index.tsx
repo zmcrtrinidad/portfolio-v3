@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Arrow from "@/assets/Arrow.svg";
 import ArrowReverse from "@/assets/ArrowReverse.svg";
 import LaravelIcon from "@/assets/LaravelIcon.svg";
-import React from "@/assets/React.svg";
+import ReactIcon from "@/assets/ReactIcon.svg";
 import Tailwind from "@/assets/Tailwind.svg";
 import Bootstrap from "@/assets/Bootstrap.svg";
 import Css from "@/assets/CSS.svg";
@@ -43,7 +43,7 @@ const About = ({ setSelectedPage }: Props) => {
                     <div className="flex flex-col  basis-2/4 text-xl gap-11">
                         <div className="flex flex-row justify-center items-center gap-2 md:gap-11 ">
                             <div className="basis-1/4"><img src={LaravelIcon} alt="" className="w-30" /></div>
-                            <div className="basis-1/4"><img src={React} alt="" className="w-30"  /></div>
+                            <div className="basis-1/4"><img src={ReactIcon} alt="" className="w-30"  /></div>
                             <div className="basis-1/4"><img src={Tailwind} alt="" className="w-36"  /></div>
                         </div>
                         <div className="flex flex-row justify-center items-center gap-2 md:gap-11 ">
