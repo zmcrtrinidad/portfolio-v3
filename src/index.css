@@ -11,5 +11,5 @@ body,
   height: 100%;
   width: 100%;
   font-family:"Montserrat", sans-serif;
-  @apply text-brown-20;
+  @apply text-white bg-gradient-graybrown ; 
 }

@@ -15,20 +15,19 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }: Props) => {
     const flexBetween = 'flex items-center justify-between';
     const [isMenuToggled, setMenuToggled] = useState<boolean>(false);
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
-    const navbarBackground = isTopOfPage ? 'bg-transparent' : 'bg-brown-50 drop-shadow-xl';
+    const navbarBackground = isTopOfPage ? 'bg-transparent' : 'bg-brown-50 drop-shadow-xl rounded-b-3xl';
     return (
         <nav>
-            <div className={`${flexBetween}  py-6 fixed top-0 z-30 w-full`}>
+            <div className={`${navbarBackground} ${flexBetween}  py-3 fixed top-0 z-30 w-full`}>
                 <div className={`mx-16 w-full`}>
                     <div className={`${flexBetween} text-sm font-bold `}>
-                        <p className='mr-16'>Zinia</p>
-
+                        <p className=' mr-16 block md:invisible '>Zinia</p>
                         {isAboveMediumScreens ?
-                            (<div className={`${navbarBackground} ${flexBetween} gap-8  w-full `}>
+                            (<div className={`${flexBetween} gap-8  w-full `}>
                                 <Link page='HOME' selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
                                 <Link page='ABOUT' selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-                                <Link page='PROJECTS' selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
                                 <Link page='EXPERIENCE' selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
+                                <Link page='PROJECTS' selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
                                 <Link page='CONTACT' selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
                             </div>) : (
                                 <button

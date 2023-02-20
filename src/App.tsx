@@ -1,6 +1,11 @@
 import Navbar from "@/templates/navbar";
+import Home from "@/templates/home";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
+import About from "@/templates/about";
+import Experience from "@/templates/experience";
+import Projects from "@/templates/projects";
+import Contact from "@/templates/contact";
 
 
 
@@ -26,6 +31,13 @@ function App() {
       isTopOfPage={isTopOfPage}
       selectedPage={selectedPage} 
       setSelectedPage={setSelectedPage}/>
+      <Home setSelectedPage={setSelectedPage} />
+      <About setSelectedPage={setSelectedPage}  />
+      <Experience setSelectedPage={setSelectedPage}  />
+      <Projects setSelectedPage={setSelectedPage}  />
+      <Contact setSelectedPage={setSelectedPage}  />
+      
+
     </div>
   )
 }
