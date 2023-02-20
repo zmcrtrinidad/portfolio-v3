@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import ArrowDown from "@/assets/ArrowDown.svg";
 import Havoc from "@/assets/HAVOC.png";
 import Vestia from "@/assets/VESTIA.png";
-import NEUMeet from "@/assets/NEUMEEt.png";
+import NEUMeet from "@/assets/NEUMEET.png";
 import YofiHouse from "@/assets/YofiHouse.png";
 import AVSoundStation from "@/assets/AVSOUNDSTATION.png";
 import QuickwayHoldings from "@/assets/QUICKWAYHOLDINGS.png";
