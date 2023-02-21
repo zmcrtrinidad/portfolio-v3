@@ -9,6 +9,7 @@ import Contact from "@/templates/contact";
 
 
 
+
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.HOME);
   const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
