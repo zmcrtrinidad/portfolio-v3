@@ -16,4 +16,7 @@ body,
 .swiper {
   width: 40vw;
 }
+.last:border-none {
+  border-bottom: none;
+}
 

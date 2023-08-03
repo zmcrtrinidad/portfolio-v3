@@ -28,28 +28,32 @@ const About = ({ setSelectedPage }: Props) => {
                 <div className="flex flex-col md:flex-row w-full   ">
                     <div className="flex flex-row justify-center items-center basis-2/4 md:mb-10">
                         <div className="flex flex-row justify-center items-center basis-2/4 ">
-                            <p className="md:text-7xl text-xl  font-kronaOne ">AB<br className="hidden md:block" />OU<br className="hidden md:block" />T</p>
+                            <p className="md:text-7xl text-xl  font-kronaOne ">ABOUT</p>
                         </div>
                         <div className="md:flex md:flex-row justify-center items-center basis-2/4 hidden ">
                             <img src={Arrow} alt="" />
                         </div>
                     </div>
                     <div className="flex flex-row justify-center items-center basis-2/4 md:p-10 p-2 text-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum. Amet risus nullam eget felis eget. Et ligula ullamcorper malesuada proin libero nunc. A arcu cursus vitae congue.
+                        <p className="antialiased italic hover:not-italic font-light tracking-wide tracking-wide">I'm a skilled web developer specializing in Laravel, ReactJS, JavaScript, PHP, and MySQL. 
+                            With a proven track record of enhancing existing systems and creating new, user-friendly websites, 
+                            I thrive on tackling challenges and staying updated with the latest web development trends. 
+                            My portfolio reflects a commitment to accessible and innovative solutions, 
+                            and I'm dedicated to continuous learning and problem-solving. Let's collaborate to shape the digital landscape!</p>
 
                     </div>
                 </div>
                 <div className="flex flex-col-reverse  md:flex-row w-full md:my-10  ">
                     <div className="flex flex-col  basis-2/4 text-xl gap-11">
                         <div className="flex flex-row justify-center items-center gap-2 md:gap-11 ">
-                            <div className="basis-1/4"><img src={LaravelIcon} alt="" className="w-30" /></div>
-                            <div className="basis-1/4"><img src={ReactIcon} alt="" className="w-30"  /></div>
-                            <div className="basis-1/4"><img src={Tailwind} alt="" className="w-36"  /></div>
+                            <div className="basis-1/4"><img src={LaravelIcon} alt="" className="w-20" /></div>
+                            <div className="basis-1/4"><img src={ReactIcon} alt="" className="w-20" /></div>
+                            <div className="basis-1/4"><img src={Tailwind} alt="" className="w-20" /></div>
                         </div>
                         <div className="flex flex-row justify-center items-center gap-2 md:gap-11 ">
-                            <div  className="basis-1/4"><img src={Bootstrap} alt="" className="w-30" /></div>
-                            <div  className="basis-1/4"><img src={Css} alt="" className="w-30" /></div>
-                            <div  className="basis-1/4"><img src={Html} alt="" className="w-30" /></div>
+                            <div className="basis-1/4"><img src={Bootstrap} alt="" className="w-20" /></div>
+                            <div className="basis-1/4"><img src={Css} alt="" className="w-20" /></div>
+                            <div className="basis-1/4"><img src={Html} alt="" className="w-20" /></div>
                         </div>
 
                     </div>
@@ -58,7 +62,7 @@ const About = ({ setSelectedPage }: Props) => {
                             <img src={ArrowReverse} alt="" className="hidden md:block" />
                         </div>
                         <div className="flex flex-row justify-center items-center basis-1/4 ">
-                            <p className="md:text-7xl text-xl  font-kronaOne ">TEC<br className="hidden md:block"/>HST<br className="hidden md:block"/>ACK</p>
+                            <p className="md:text-7xl text-xl  font-kronaOne ">TECH<br className="hidden md:block" />STACK</p>
                         </div>
 
                     </div>

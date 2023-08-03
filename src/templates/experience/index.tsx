@@ -32,38 +32,35 @@ const Experience = ({ setSelectedPage }: Props) => {
                     <div className="flex flex-row justify-center items-center basis-2/4 md:p-10 text-xl">
 
                         <ol className="relative border-l border-gray-200 dark:border-gray-700">
+                        <li className="mb-10 ml-6">
+                                <span className="absolute flex items-center justify-center w-6 h-6 bg-brown-50 rounded-full -left-3 ring-8 ring-brown-20 ">
+                                    <img src={Stronghold} alt="" />
+                                </span>
+                                <h3 className="flex items-center mb-1 text-lg font-semibold dark:text-white">Stronghold Insurance Company Inc. <span className="bg-brown-30 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded   ml-3">Present</span></h3>
+                                <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2022</time>
+                                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Web Developer</p>
+                            </li>
+                            <li className="mb-10 ml-6">
+                                <span className="absolute flex items-center justify-center w-6 h-6 bg-brown-50 rounded-full -left-3 ring-8 ring-brown-20 ">
+                                    <img src={Pocketdevs} alt="" />
+                                </span>
+                                <h3 className="flex items-center mb-1 text-lg font-semibold dark:text-white">PocketDevs </h3>
+                                <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
+                                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"> Part-time Web Developer & Shopify Developer</p>
+                            </li>
+                            
                             <li className="mb-10 ml-6">
                                 <span className="absolute flex items-center justify-center w-6 h-6 bg-brown-50 rounded-full -left-3 ring-8 ring-brown-20 ">
                                     <img src={RightValley} alt="" />
                                 </span>
-                                <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">RightValley</h3>
+                                <h3 className="flex items-center mb-1 text-lg font-semibold dark:text-white">RightValley</h3>
                                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2020</time>
                                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Web Developer Intern</p>
                             </li>
-                            <li className="mb-10 ml-6">
-                                <span className="absolute flex items-center justify-center w-6 h-6 bg-brown-50 rounded-full -left-3 ring-8 ring-brown-20 ">
-                                    <img src={Pocketdevs} alt="" />
-                                </span>
-                                <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">PocketDevs </h3>
-                                <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
-                                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Web Developer Intern</p>
-                            </li>
-                            <li className="mb-10 ml-6">
-                                <span className="absolute flex items-center justify-center w-6 h-6 bg-brown-50 rounded-full -left-3 ring-8 ring-brown-20 ">
-                                    <img src={Pocketdevs} alt="" />
-                                </span>
-                                <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">PocketDevs <span className="bg-brown-30 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded   ml-3">Present</span></h3>
-                                <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">May 2022</time>
-                                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"> Part-time Web Developer & Shopify Developer</p>
-                            </li>
-                            <li className="mb-10 ml-6">
-                                <span className="absolute flex items-center justify-center w-6 h-6 bg-brown-50 rounded-full -left-3 ring-8 ring-brown-20 ">
-                                    <img src={Stronghold} alt="" />
-                                </span>
-                                <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Stronghold Insurance Company Inc. <span className="bg-brown-30 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded   ml-3">Present</span></h3>
-                                <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2022</time>
-                                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Web Developer</p>
-                            </li>
+                           
+                            
+                            
+                            
 
                         </ol>
 
